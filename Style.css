@@ -1,12 +1,9 @@
-body {
-    overflow: hidden;
+body{
     font-family: sans-serif;
   }
 
-  .card {
-    width: 150px;
-    height: 200px;
-    display: block;
-    background: #666;
-    transform-origin: 50% 99%;
+  .square {
+    height: 20vh;
+    width: 40vw;
+    background-color: #555;
   }
