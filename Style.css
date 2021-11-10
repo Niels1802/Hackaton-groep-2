@@ -2,8 +2,132 @@ body{
     font-family: sans-serif;
   }
 
-  .square {
-    height: 20vh;
-    width: 40vw;
-    background-color: #555;
+  header .logo{
+
+
+
+    margin-top: 50px;
+  
+    margin-left: 290px;
+  
+    max-width: 192px;
+  
+    height: 71px;
+  
+      }
+  
+   
+  
+  .navigation{
+  
+    position: absolute;
+  
+    right:0;
+  
+    margin-right:370px;
+  
+    margin-top: -50px;
+  
+  }
+  
+   
+  
+    header ul{
+  
+    display: flex;
+  
+    }
+    header ul li{
+  
+      list-style: none;
+  
+    }
+  
+    header ul li a{
+  
+    color: #333;
+  
+      font-weight: 400;
+  
+      margin-left: 40px;
+  
+      text-decoration: none;
+  
+  }
+  .inloggen{
+
+    background-color: #001EA3;
+  
+    padding: 8px;
+  
+    padding-left: 30px;
+  
+    padding-right: 30px;
+  
+    border-radius: 20px;
+  
+    color: white;
+  
+    text-decoration: none;
+  
+    background: transparent linear-gradient(264deg, var(--unnamed-color-7e43e3) 0%, #001EA3 100%) 0% 0% no-repeat padding-box;
+  
+  background: transparent linear-gradient(264deg, #7E43E3 0%, #001EA3 100%) 0% 0% no-repeat padding-box;
+  
+  }
+  .Circle {
+
+    height: 350px;
+  
+    width: 248px;
+  
+    background-color: #7E43E3;
+  
+    border-radius: 50%;
+  
+    position: fixed;
+  
+    margin-top: -180px;
+  
+    float: left;
+  
+    left: -185px;
+  
+  }
+  .sci{
+
+    position: absolute;
+
+    top: 50%;
+
+    right: 30px;
+
+    transform: translateY(-50%);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-direction: column;
+
+    scroll-behavior: fixed;
+
+  }
+
+  .sci li{
+
+    list-style: none;
+
+  }
+
+  .sci li a{
+
+    display: inline-block;
+
+    margin: 7px -10px;
+
+    transform: scale(0.6);
+
   }
