@@ -117,42 +117,58 @@ body{
   }
 
   /* einde cards */
-.circle{
+
+   .circle{
   position: absolute;
-  top: 55%;
+  top: 60%;
   left: 20%;
-  height: 200px;
-  width: 200px;
-  background-color: #7E43E3;
+  height: 100px;
+  width: 100px;
+  background: transparent linear-gradient(264deg, #7E43E3 0%, #001EA3 100%) 0% 0% no-repeat padding-box;
   border-radius: 50%;
   z-index: 1;
-}
+} 
 
 .YA{
   font-size: 5rem;
   position: absolute;
-  top: 50%;
-  left: 24.5%;
+  top: 48%;
+  left: 21.5%;
   z-index: 2;
   color: white;
 }
 
-.circle-2{
+ .circle-2{
   position: absolute;
-  top: 55%;
+  top: 60%;
   right: 20%;
-  height: 200px;
-  width: 200px;
-  background-color: #7E43E3;
+  height: 100px;
+  width: 100px;
+  background: transparent linear-gradient(264deg, #7E43E3 0%, #001EA3 100%) 0% 0% no-repeat padding-box;
   border-radius: 50%;
   z-index: 1;
-}
+} 
 
 .NO{
   font-size: 7rem;
   position: absolute;
-  top: 44.5%;
-  right: 24%;
+  top: 41.8%;
+  right: 20.8%;
   z-index: 2;
   color: white;
+}
+
+.Save{
+  font-size: 5rem;
+  position: absolute;
+  top: 15%;
+  right: 46.5%;
+  z-index: 2;
+}
+.Save-arrow{
+  font-size: 5rem;
+  position: absolute;
+  top: 3.5%;
+  right: 49%;
+  z-index: 2;
 }
